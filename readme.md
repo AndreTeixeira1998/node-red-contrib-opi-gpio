@@ -46,6 +46,9 @@ If you have a new set of gpio pins tested at another Pi, feel free to send me a 
 g.prand(at)gmail.com
 
 # Release history
+0.0.6
+Changed to the latest onoff library. Now works with Node.js 12/14.
+
 0.0.5
 Added Orange Pi Zero Plus 2 (h5).
 Changed to the latest onoff library.
