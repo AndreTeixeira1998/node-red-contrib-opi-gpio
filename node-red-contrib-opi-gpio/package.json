@@ -1,0 +1,84 @@
+{
+  "_args": [
+    [
+      "node-red-contrib-opi-gpio",
+      "/home/endredra"
+    ]
+  ],
+  "_from": "node-red-contrib-opi-gpio@latest",
+  "_hasShrinkwrap": false,
+  "_id": "node-red-contrib-opi-gpio@0.0.7",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/node-red-contrib-opi-gpio",
+  "_nodeVersion": "10.24.1",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/node-red-contrib-opi-gpio_0.0.7_1618732283019_0.8358769841627562"
+  },
+  "_npmUser": {
+    "email": "g.prand@gmail.com",
+    "name": "gprandst"
+  },
+  "_npmVersion": "6.14.12",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "node-red-contrib-opi-gpio",
+    "raw": "node-red-contrib-opi-gpio",
+    "rawSpec": "",
+    "scope": null,
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/node-red-contrib-opi-gpio/-/node-red-contrib-opi-gpio-0.0.7.tgz",
+  "_shasum": "207a261c84e8c2435b814014c3a3d265a6de43f0",
+  "_shrinkwrap": null,
+  "_spec": "node-red-contrib-opi-gpio",
+  "_where": "/home/endredra",
+  "author": {
+    "email": "g.prand@gmail.com"
+  },
+  "dependencies": {
+    "onoff": "*"
+  },
+  "description": "Orange Pi GPIO. Digital input/output for most Pi computers",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "fileCount": 8,
+    "integrity": "sha512-MzchlAfIx+eg0IFkw948vFB+jU83/hKfu1/kUpYuG1EjpeLNUIGapFXpD5EUKMmbDrdRkjNt5JlmJ0z/1jHD3Q==",
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJge+T7CRA9TVsSAnZWagAACOMP+wSPGYG82imfAsrjyziP\nX9VzBZdKyZy17QXRG/YSj5gqhlMQSUmH/XY8oRdKkh51RBe6zEAJHf6VrkXL\nL0Q0ReEyVvCNHvL3b7clY3LOICPK2ZqS/X17jYpfCy9mDF+H427tAlriq9sw\nP5z1Ky7y5gsNvsWOueScgoLPQQpZljBA+DLTBIDUCJZJU2j2jpq0tLaWi615\nMYznBb5cnRVK0wr9zHRTHVnnQPLC4Djm2P+fzaDohQI7HImS0z10gaS660zS\nXSDJKpzmJv92M8ODT22Os3uLHeYjsKQbvdveo45aEhM1RuMVxoNhgmBNUZY6\nNI9rI7C8tunKzDFM5D03876jVDFAnCx1sfVIsCd2V+8Egj2s/6uGTvoS9SGU\ng2cHhuN5ORZOfONYZP7MEhwHo15oPJdg8jc9tpfMLmn7AkQ6WM6Vjlm13pkA\nlIVrCh0A/4M4EmkpcIpkKDp6NYbJ8AlZhkQTL4ySMgLSuPI5w8pTMfF5nPZG\n4sO5GmqIPwg9hLuTLcNcmvDX9yOvNGdAPnCFsnHt0oQ/bE/ipJD1KXJihRT6\nHOAOnY0ulwUI3zrJat06IEBa7l3FGBXBCPHsQLBNew4d8mHz1uEapw0ockCB\nKJ9jxuk9t0C1Ry+JTNywO2YNP5fYVp5Ai/eL/aT5KehmLkJ8AM4oirmXSIpc\nZCoB\r\n=N5qn\r\n-----END PGP SIGNATURE-----\r\n",
+    "shasum": "207a261c84e8c2435b814014c3a3d265a6de43f0",
+    "tarball": "https://registry.npmjs.org/node-red-contrib-opi-gpio/-/node-red-contrib-opi-gpio-0.0.7.tgz",
+    "unpackedSize": 48419
+  },
+  "keywords": [
+    "Armbian",
+    "Banana Pi",
+    "GPIO",
+    "Nano Pi",
+    "Orange Pi",
+    "Raspberry Pi",
+    "node-red"
+  ],
+  "license": "ISC",
+  "maintainers": [
+    {
+      "name": "gprandst",
+      "email": "g.prand@gmail.com"
+    }
+  ],
+  "name": "node-red-contrib-opi-gpio",
+  "node-red": {
+    "nodes": {
+      "In": "opi-gpio-in.js",
+      "Orange Pi": "opi-gpio-out.js"
+    }
+  },
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "version": "0.0.7"
+}

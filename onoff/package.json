@@ -1,0 +1,124 @@
+{
+  "_args": [
+    [
+      "onoff@*",
+      "/home/endredra/node_modules/node-red-contrib-opi-gpio"
+    ]
+  ],
+  "_from": "onoff@*",
+  "_hasShrinkwrap": false,
+  "_id": "onoff@6.0.3",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/onoff",
+  "_nodeVersion": "15.5.1",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/onoff_6.0.3_1619469075030_0.01235158268598524"
+  },
+  "_npmUser": {
+    "email": "bdscooke@gmail.com",
+    "name": "fivdi"
+  },
+  "_npmVersion": "7.3.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "onoff",
+    "raw": "onoff@*",
+    "rawSpec": "*",
+    "scope": null,
+    "spec": "*",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/node-red-contrib-opi-gpio"
+  ],
+  "_resolved": "https://registry.npmjs.org/onoff/-/onoff-6.0.3.tgz",
+  "_shasum": "b8e41aec363bebbb3d76e47d74b8ae9cea8d4280",
+  "_shrinkwrap": null,
+  "_spec": "onoff@*",
+  "_where": "/home/endredra/node_modules/node-red-contrib-opi-gpio",
+  "author": {
+    "name": "fivdi"
+  },
+  "bugs": {
+    "url": "https://github.com/fivdi/onoff/issues"
+  },
+  "dependencies": {
+    "epoll": "^4.0.1",
+    "lodash.debounce": "^4.0.8"
+  },
+  "description": "GPIO access and interrupt detection with Node.js",
+  "devDependencies": {
+    "@types/mocha": "^8.2.2",
+    "@types/mock-require": "^2.0.0",
+    "codecov": "^3.8.1",
+    "jshint": "^2.12.0",
+    "mocha": "^8.3.2",
+    "mock-fs": "^4.13.0",
+    "mock-require": "^3.0.3",
+    "nyc": "^15.1.0",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.4"
+  },
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
+  "dist": {
+    "fileCount": 37,
+    "integrity": "sha512-xtVlwRDzswYM69bzzIui/qzu7QHsFnjsQiCV1iYVA/HXt5xdc9utc97SYAlXzK8wAhIN7+H7MaVqh2vpfdKk9A==",
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJghyMTCRA9TVsSAnZWagAAvF4P/2y1fD4imDmtlYknAFjN\n3uUK88WqKzWfwumwP8tq1IjG1BCP/sY3Vk5B4t8m4rrETPJ1VQGxDSh2cFA3\nxPl9owWRLRvVKu4i00Z+x54rlhDL+9bCgziIVcryXeGMo3MW74178I7Xb9ic\ndxMSZyVJyf8wOJxQQpltmVmKWryD3ZLX6g/sbsUn/o0Ax20D7TD/21tnN/SE\nei3jZ8+BtzjiTQLEb8dW0U3I47R2yv1TEWt0gI2e8scKxErvEfcET3emzZGO\nGodqiteD8sgipAxBvZyghh9rFvJbEQuroSNP1qjceZmKCRyG8O/OHn0kW7MK\n84rI9XFnvVxoEVZvtif2uo/dz/rQ/6x/5FdllPuxK6FO+Ap6+bnBwAsON0Pb\n6PGnM+iiWVq1YA9x7LJ/nr1T6r4H8voKbum3FjPDBoifjUJFNqv9r2nfDD6Y\nlbIj8xLc3bJdhp7C43Ycv3HXhM9ae9DxIVqbW1N4nGJgaRsKItEUUABeMiHm\nYL2u5AFyGeU2qX/rI7tpXaSuMH5WHlecrNXVp0dAfn/ya1BoXB+quj9LgRs8\nW6IKOJeiqn8X0gemMXXD9JWQTgz3UMytnBmLgekxPSpEqQKp3/U2KLcQdftc\nI72JeFjh4LCglsmQ+AJTNHykRdrHhZiS8zKA7+47q4ca13BHURUb/ckNXnhE\nWzlM\r\n=u8NY\r\n-----END PGP SIGNATURE-----\r\n",
+    "shasum": "b8e41aec363bebbb3d76e47d74b8ae9cea8d4280",
+    "tarball": "https://registry.npmjs.org/onoff/-/onoff-6.0.3.tgz",
+    "unpackedSize": 295615
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "gitHead": "79f76767c074ff56029ea9271eeee8f71b9705cd",
+  "homepage": "https://github.com/fivdi/onoff",
+  "keywords": [
+    "beaglebone",
+    "beaglebone-black",
+    "gpio",
+    "interrupt",
+    "iot",
+    "linux",
+    "pi",
+    "raspberry",
+    "raspi",
+    "rpi"
+  ],
+  "license": "MIT",
+  "main": "onoff.js",
+  "maintainers": [
+    {
+      "name": "fivdi",
+      "email": "bdscooke@gmail.com"
+    }
+  ],
+  "mocha": {
+    "extension": [
+      "js",
+      "ts"
+    ],
+    "require": "ts-node/register"
+  },
+  "name": "onoff",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fivdi/onoff.git"
+  },
+  "scripts": {
+    "codecov": "nyc report --reporter=text-lcov > coverage.lcov && codecov",
+    "coverage-report": "nyc report --reporter=html",
+    "integration-test": "cd integration-test && ./run-tests && cd ..",
+    "lint": "jshint onoff.js examples/*.js integration-test/*.js test/*.js test/*/*.js",
+    "test": "nyc mocha"
+  },
+  "types": "onoff.d.ts",
+  "version": "6.0.3"
+}
